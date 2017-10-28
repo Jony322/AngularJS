@@ -14,11 +14,9 @@ git push origin
 npm install -g @angular/cli
 
 ng new nombredelproyecto
+
 ng serve
 
-
-ng build --prod  --base-href="ruta http"
-
-comando de instalacion
-
 npm i -g angular-cli-ghpages
+
+ng build --prod  --base-href="https://BecaEveris2017.github.com/AngularJS"

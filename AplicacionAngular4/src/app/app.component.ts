@@ -5,7 +5,20 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'app';
-  nombre = 'Jonathan Medina';
+  title = 'Jonathan Medina Ceron';
+
+  colores = [];
+
+  addColor($event, color){
+    if($event.which === 13){
+      this.colores.push(color.value);
+      color.value = "";
+    }
+  }
+
+  mostrarColores(){
+
+  }
 }
